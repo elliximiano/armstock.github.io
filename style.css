@@ -1,0 +1,330 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+
+/* open-sans-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v40-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-500 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/open-sans-v40-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-600 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v40-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-800 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/open-sans-v40-cyrillic_latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+/* krona-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/krona-one-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+.rectangle1 {
+  width: 1922px;
+  height: 61px;
+  flex-shrink: 0;
+  background-color: #000; 
+  top: 0px;
+}
+
+
+.adress {
+  display: inline-block;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  padding-left: 525px;
+  top: 0px;
+  text-decoration-line: none;
+}
+
+
+.location {
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: 0px;
+    padding: 11px 1406px 13px 479px;
+}
+
+.delivery-icon {
+    height: 37px;
+    width: 37px;
+    position: absolute;
+    top: 0px;
+    padding: 14px 992px 10px 893px;
+}
+
+.delivery {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0px;
+    padding-left: 939px;
+}
+
+.phone-icon {
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  padding: 14px 649px 10px 1236px;
+  top: 0px;
+}
+
+.phone_number {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  padding-bottom: 22px;
+  padding-left: 1283px;
+  top: 0px;
+  box-sizing: border-box;
+}
+
+
+.site_logo-top {
+  display: inline-block;
+  width: 840px;
+  height: 122px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "Krona One", sans-serif;
+  font-size: 112px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-right: 542px;
+  padding-left: 538px;
+  box-sizing: border-box;
+}
+
+.site_logo:hover {
+  transition: .7s;
+  background-image: url(img/icons/camo.jpg);
+  background-position: 25% 25% 25% 25%;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+}
+
+.site_logo-bottom {
+  display: flex;
+  width: 95%;
+  height: 23px;
+  position: absolute;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Krona One", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 12.5px;
+  padding-left: 545px;
+  box-sizing: border-box;
+}
+
+.rectangle2 {
+  position: relative;
+  width: 1800px;
+  height: 100px;
+  flex-shrink: 0;
+  background: #000;
+  top: 75px;
+  left: 50px;
+}
+
+.all-categories_text {
+  position: absolute;
+  display: inline-block;
+  width: 250px;
+  height: 29px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  transition: .5s;
+  left: 160px;
+  top: 290px;
+}
+
+.all-categories_text:hover {
+  color: #a3a3a3;
+  transition: .5s;
+}
+
+
+.line-1 {
+  display: inline;
+  width: 25px;
+  height: 3px;
+  border-radius: 3px;
+  top: 40px;
+  background: #FFF;
+  margin-top: 279px;
+  margin-left: 125px;
+  position: absolute;
+}
+
+.line-2 {
+  display: inline-block;
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  border-radius: 3px;
+  top: 40px;
+  margin-top: 289px;
+  background: #FFF;
+  margin-left: 125px;
+}
+
+.line-3 {
+  display: inline-block;
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  border-radius: 3px;
+  top: 40px;
+  margin-top: 299px;
+  background: #FFF;
+  margin-left: 125px;
+}
+
+.text {
+  width: 110px;
+  height: 29px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.main_text {
+  position: absolute;
+  left: 650px;
+  bottom: 580px;
+}
+
+.delivery_text {
+  position: absolute;
+  left: 800px;
+  bottom: 580px;
+}
+
+.payment_text {
+  position: absolute;
+  left: 975px;
+  bottom: 580px;
+}
+
+.contacts_text {
+  position: absolute;
+  left: 1120px;
+  bottom: 580px;
+}
+
+.icons_catalog {
+  width: 37px;
+  height: 37px;
+  flex-shrink: 0;
+}
+
+.lense_icon {
+  position: absolute;
+  left: 1440px;
+  bottom: 605px;
+}
+
+.cart_icon {
+  position: absolute;
+  left: 1540px;
+  bottom: 605px;
+}
+
+.person_icon {
+  position: absolute;
+  left: 1640px;
+  bottom: 605px;
+}
+
+.text_under_icons {
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search-text {
+  position: absolute;
+  left: 1440px;
+  bottom: 570px;
+}
+
+.cart-text {
+  position: absolute;
+  left: 1525px;
+  bottom: 570px;
+}
+
+.login-text {
+  position: absolute;
+  left: 1635px;
+  bottom: 570px;
+}
